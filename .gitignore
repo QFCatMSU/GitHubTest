@@ -1,3 +1,5 @@
 .*
 *.Rproj
 ~*
+# Not sure why .gitignore is needed if we already have .* -- but it is
+.gitignore
