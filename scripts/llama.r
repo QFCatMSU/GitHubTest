@@ -1,1 +1,0 @@
-cat("I love lamas")
