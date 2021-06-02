@@ -1,0 +1,1 @@
+cat("I love lamas!")
