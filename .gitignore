@@ -5,5 +5,3 @@
 *.Rproj
 ~*
 doNotSync/
-scripts/test2.r
-llama.r
