@@ -9,7 +9,7 @@
   {
     cat("Cheddar is good, but there is better.");
   }
-  else if(cheeseAns == "Meunster") 
+  else if(cheeseAns == "Muenster") 
   {
     cat("Ah, yes, you are a true cheese aficionado!"); 
   }
