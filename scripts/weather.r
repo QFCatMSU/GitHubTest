@@ -4,7 +4,9 @@
   library(package=ggplot2);              # include all GGPlot2 functions
 
   source("scripts/ggplotTemplate.r");
+  ## How about if you moved ggplotTemplate.r to the main project folder
   weatherData = read.csv(file="data/weatherData.csv");
+  ## How about if you moved weatherData.csv to the templates folder inside the scripts folder
   
   #### Labels for the facets of the plot
   windLabels = c(Low = "Light Winds",
