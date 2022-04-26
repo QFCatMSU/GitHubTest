@@ -7,5 +7,5 @@ GGP_template = theme_bw() +
                      axis.title.y=element_text(size=14, color="orangered4"),
                      plot.title=element_text(size=18, face="bold",
                                              color ="darkblue"),
-                     plot.subtitle=element_text(size=11, face="bold.italic",
+                     plot.subtitle=element_text(size=10, face="bold.italic",
                                                 color ="brown", family="serif"));
