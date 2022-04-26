@@ -8,4 +8,4 @@ GGP_template = theme_bw() +
                      plot.title=element_text(size=18, face="bold",
                                              color ="darkblue"),
                      plot.subtitle=element_text(size=10, face="bold.italic",
-                                                color ="brown", family="serif"));
+                                                color ="purple", family="serif"));
