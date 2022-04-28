@@ -1,5 +1,5 @@
 GGP_template = theme_bw() +
-               theme(axis.ticks = element_line(color="red", size=1),
+               theme(axis.ticks = element_line(color="red", size=4),
                      panel.grid.minor = element_line(color="grey75", linetype=4),
                      panel.background = element_rect(fill="lightyellow", color="red"),
                      panel.grid.major = element_line(color="grey75"),

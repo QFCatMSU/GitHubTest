@@ -11,14 +11,14 @@
   #### Labels for the facets of the plot
   windLabels = c(Low = "Light Winds",
                  Medium = "Medium Winds",
-                 High = "Strong Winds");
+                 High = "High Winds");
   
   #### Boxplots of Change in Temperature vs. Wind Direction 
   #           at different wind speeds
   thePlot = ggplot(data=weatherData) +
     geom_boxplot(mapping=aes(x=windDir, y=changeMaxTemp), 
                  na.rm=TRUE,
-                 color=c("blue", rep("black", 3),
+                 color=c("blue", rep("grey10", 3),
                          "green", rep("black", 3),
                          "orange", rep("black", 3)),
                  fill=c(rep(NA, 8), rep("red", 3), NA)) +
