@@ -1,0 +1,65 @@
+# ADMB-TMB Installation Instructions
+Charlie Belinsky
+
+<style>
+  /* Custom CSS styles */
+  p, ul, ol {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+</style>
+
+## 2 - Overview
+
+These procedures in the document install the following software and was
+tested on 8/30/22:
+
+- R 4.2.1
+
+- Rtools 4.2 (for the CPP compilers)
+
+- RStudio 2022.07.1 Build 554
+
+- TMB package for R 1.9.1
+
+- ADMB 13.0 - Emacs 27.2 (*Emacs version 28 does not work*)
+
+  - Emacs configuration files - These files provide the syntax
+    highlighting in Emacs for both ADMB and TMB and set up the
+    Environment
+
+- admb2r.cpp in the ADMB folder
+
+### Admin access to your computer
+
+- The installation procedures will do the following that might require
+  administrative access to your computer:
+
+- Install programs (R, RStudio, Rtools, ADMB, Emacs)
+
+- Install programs directly to the C: drive (ADMB, RTools)
+
+- Change the User Environment variables (PATH.bat)
+
+- Install programs not validated by Microsoft (ADMB)
+
+- Run a batch file (PATH.bat)
+
+When you click the **Render** button a document will be generated that
+includes both content and the output of embedded code. You can embed
+code like this:
+
+``` r
+1 + 1
+```
+
+    [1] 2
+
+You can add options to executable code like this
+
+    [1] 4
+
+The `echo: false` option disables the printing of code (only output is
+displayed).
